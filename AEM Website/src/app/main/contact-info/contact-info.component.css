@@ -1,0 +1,84 @@
+.section-container {
+  margin-top: 20px;
+  height: 200px;
+  align-items: center;
+  background-color: orange;
+}
+
+.contactInfoContainer {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+
+.contactInfo {
+  padding: 10px;
+  width: 270px;
+  height: 150px;
+  position: relative;
+  color: black;
+  margin-top: 30px;
+
+}
+
+.infoHeader .header {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-left: 05px;
+}
+
+p {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.7;
+  padding-top: 10px;
+  font-family: 'arial';
+}
+
+.infoDetails {
+
+  justify-content: center;
+
+}
+
+.section-container .infoDetails p {
+  font-size: 16px;
+  padding-top: 5px;
+
+}
+
+.contactInfo i {
+  display: flex;
+  position: absolute;
+  left: -40px;
+  color: grey;
+  opacity: 0.3;
+  align-items: center;
+
+}
+
+.fa-map-marker {
+  position: absolute;
+  font-size: 75px;
+  margin-top: -95px;
+
+}
+
+.fa-envelope {
+  position: absolute;
+  font-size: 50px;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+.fa-mobile {
+  position: absolute;
+  font-size: 80px;
+  margin-top: -70px;
+}

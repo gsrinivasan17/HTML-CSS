@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+    padding: 0; 
+   box-sizing: border-box;
+   
+}
+ h2 {
+   font-size: 24px;
+   font-weight: bold;
+   color:  #1520A6;
+   font-family: 'arial'; 
+ }
+
+/* p class="header" */
+  .header{
+  
+    line-height: 20px;
+    font-size: 24px;
+    text-decoration: solid;
+    text-align: center;
+    color:  #1520A6;  
+    font-family: 'arial'; 
+  
+ }
+ 
+ /* p class="details" */
+ .details{
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'arial'; 
+ }
+

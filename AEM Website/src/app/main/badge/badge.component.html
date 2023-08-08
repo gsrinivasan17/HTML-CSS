@@ -1,0 +1,21 @@
+<figure>
+  <div class="slider-controls">
+    <div class="slider-previous" (click)="previousSlide()">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div class="slide" *ngFor="let image of images; let i = index" [ngClass]="{'active': currentIndex === i}">
+      <div class="image-content">
+        <div class="image">
+          <img src="{{ image.img }}">
+        </div>
+       
+      </div>
+    </div>
+    <div class="slider-next" (click)="nextSlide()">
+      <i class="fa fa-chevron-right"></i>
+    </div>
+  </div>
+</figure>
+
+<app-contact-info></app-contact-info>
+  

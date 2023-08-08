@@ -1,0 +1,18 @@
+<figure>
+    <h2>Gallery</h2>
+    <div class="figureContainer">
+       
+        <div class="image-gallery">
+            <div *ngFor="let image of images" (click)="enlargeImage(image)">
+                <img [src]="image" alt="Gallery Image" />
+            </div>
+
+            <div class="modal" *ngIf="enlargedImage" (click)="closeModal()">
+                <div class="modal-content">
+                    <img [src]="enlargedImage" alt="Enlarged Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</figure>

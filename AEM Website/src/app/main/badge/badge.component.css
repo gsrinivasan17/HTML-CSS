@@ -1,0 +1,58 @@
+figure {
+  display: flex;
+  background-color: white;
+
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  color: grey;
+
+}
+
+.slider-controls {
+  background-color: white;
+
+}
+
+.slider-previous {
+  position: relative;
+  left: 15px;
+  z-index: 1;
+
+}
+
+.slider-next {
+  position: relative;
+  z-index: 1;
+  right: 15px;
+
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.image-content {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}

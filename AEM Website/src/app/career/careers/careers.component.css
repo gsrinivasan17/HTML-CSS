@@ -1,0 +1,40 @@
+.section {
+  width: auto;
+  background-color:  #f2f2f2;
+  padding: 130px;
+ 
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: justify;
+}
+p{
+   white-space: pre-line;
+}
+
+.details{
+  padding: 5px;
+  
+}
+.content-section {
+  flex: 1;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.image {
+  margin-left: 60px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

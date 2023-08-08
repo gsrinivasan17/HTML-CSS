@@ -1,0 +1,19 @@
+section {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+figure  {
+   margin: 0;
+    background: url('/ADS18041.JPG');
+    background-repeat: no-repeat; 
+     background-size: cover; 
+    background-position: center;
+
+}
+figure img{
+  width:1500px;
+  height: 700px;
+}
